@@ -1,12 +1,10 @@
-# -*- coding: utf-8 -*-
-
 import streamlit as st
 import numpy as np
 from tensorflow import keras
 from PIL import Image
 
 # Load the saved Keras model for Braille alphabet prediction
-model = keras.models.load_model('C:/Users/Ma.Diane Agpaoa/Downloads/testapp/Braille_Model-2.h5')
+model = keras.models.load_model('Braille_Model-2.h5')
 
 # Function to preprocess the image
 def preprocess_image(image):
