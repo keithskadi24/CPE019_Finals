@@ -53,7 +53,7 @@ class_to_letter = {
 
 # Streamlit app
 def main():
-    st.title("Image Classification")
+    st.title("Braille Character Recognition")
     st.write("Upload an image and the model will predict its letter.")
 
     # File uploader widget
